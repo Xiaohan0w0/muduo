@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xiaohan/code/muduo/src/buffer.cc
+buffer.h
+/home/xiaohan/code/muduo/src/buffer.h
+errno.h
+-
+sys/uio.h
+-
+unistd.h
+-
+
+/home/xiaohan/code/muduo/src/buffer.h
+noncopyable.h
+/home/xiaohan/code/muduo/src/noncopyable.h
+vector
+-
+algorithm
+-
+string
+-
+
+/home/xiaohan/code/muduo/src/noncopyable.h
+
