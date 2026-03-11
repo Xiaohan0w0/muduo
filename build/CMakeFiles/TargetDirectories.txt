@@ -3,3 +3,7 @@
 /home/xiaohan/code/muduo/build/src/CMakeFiles/rebuild_cache.dir
 /home/xiaohan/code/muduo/build/src/CMakeFiles/edit_cache.dir
 /home/xiaohan/code/muduo/build/src/CMakeFiles/mymuduo.dir
+/home/xiaohan/code/muduo/build/test/CMakeFiles/rebuild_cache.dir
+/home/xiaohan/code/muduo/build/test/CMakeFiles/testserver.dir
+/home/xiaohan/code/muduo/build/test/CMakeFiles/edit_cache.dir
+/home/xiaohan/code/muduo/build/test/CMakeFiles/test.dir

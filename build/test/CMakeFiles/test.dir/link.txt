@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -std=c++11 -fPIC -g  -rdynamic CMakeFiles/test.dir/test.o  -o ../../bin/test 

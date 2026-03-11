@@ -123,6 +123,32 @@ mymuduo/fast:
 	$(MAKE) -f src/CMakeFiles/mymuduo.dir/build.make src/CMakeFiles/mymuduo.dir/build
 .PHONY : mymuduo/fast
 
+#=============================================================================
+# Target rules for targets named testserver
+
+# Build rule for target.
+testserver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 testserver
+.PHONY : testserver
+
+# fast build rule for target.
+testserver/fast:
+	$(MAKE) -f test/CMakeFiles/testserver.dir/build.make test/CMakeFiles/testserver.dir/build
+.PHONY : testserver/fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
+
+# fast build rule for target.
+test/fast:
+	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
+.PHONY : test/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -132,6 +158,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... mymuduo"
+	@echo "... testserver"
+	@echo "... test"
 .PHONY : help
 
 

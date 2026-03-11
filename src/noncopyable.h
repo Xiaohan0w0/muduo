@@ -1,13 +1,15 @@
 #pragma once
 
-// noncopyable被继承后，派生类可进行构造和析构，不能进行拷贝和赋值
-class Noncopyable
+/**
+ * noncopyable被继承以后，派生类对象可以正常的构造和析构，但是派生类对象
+ * 无法进行拷贝构造和赋值操作
+ */ 
+class noncopyable
 {
 public:
-    Noncopyable(const Noncopyable&) = delete;
-    void operator=(const Noncopyable &) = delete;
-
+    noncopyable(const noncopyable&) = delete;
+    noncopyable& operator=(const noncopyable&) = delete;
 protected:
-    Noncopyable() = default;
-    ~Noncopyable() = default;
+    noncopyable() = default;
+    ~noncopyable() = default;
 };

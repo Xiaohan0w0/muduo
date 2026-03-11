@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -std=c++11 -fPIC -g  -rdynamic CMakeFiles/testserver.dir/testserver.o  -o ../../bin/testserver   -L/home/xiaohan/code/muduo/lib  -Wl,-rpath,/home/xiaohan/code/muduo/lib ../../lib/libmymuduo.so -lpthread 
